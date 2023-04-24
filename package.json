@@ -4,7 +4,8 @@
   "description": " A simple restaurant page built with javascript and webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Aaliyah Montgomery",
   "license": "ISC",
