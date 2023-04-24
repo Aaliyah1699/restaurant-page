@@ -15,3 +15,6 @@ mail
 location
 <i class="fa-solid fa-map-pin fa-lg" style="color: #f5f5f5;"></i>
 
+fonts
+font-family: 'Castoro Titling', cursive, fantasy;
+font-family: 'Tangerine', cursive, fantasy;
