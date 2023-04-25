@@ -75,6 +75,7 @@ div.menu {
   margin-top: 1em;
   padding: 1em;
   background-color: transparent;
+  padding-bottom: 3em;
 }
 div.menu h2 {
   font-size: 3em;
