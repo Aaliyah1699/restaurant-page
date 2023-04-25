@@ -77,9 +77,9 @@ function createFooter() {
   creditLink.href =
     'https://www.pexels.com/photo/row-of-stools-next-to-long-table-covered-with-tablecloth-in-dark-hall-4577179/';
 
+  footer.appendChild(footerText);
   creditLink.appendChild(imageCredit);
   footer.appendChild(creditLink);
-  footer.appendChild(footerText);
 
   return footer;
 }
