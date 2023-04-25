@@ -12,9 +12,9 @@ body {
   overflow: hidden;
   color: #e2dfd2;
 }
-/* header & nav */
+/* Header & Nav */
 header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -22,11 +22,36 @@ header {
   opacity: 0.5;
   color: #e2dfd2;
   text-align: center;
-  font-size: 1.5em;
-  padding: 1.5em;
+  font-size: 2.5em;
+  padding: 0.5em;
+  font-family: 'Tangerine', cursive, fantasy;
 }
-
-/* footer*/
+nav {
+  display: flex;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  color: #e2dfd2;
+  text-align: center;
+  padding: 0.2em;
+}
+.nav-button {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0.1em;
+  margin: 0.1em;
+  background-color: #000000;
+  color: #e2dfd2;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  font-family: 'Castoro Titling', cursive, fantasy;
+}
+.nav-button:hover {
+  text-decoration: underline;
+}
+/* Home */
+/* Footer*/
 footer {
   position: fixed;
   left: 0;
