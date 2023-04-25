@@ -10,4 +10,19 @@ body {
   background-position: center;
   background-attachment: fixed;
   overflow: hidden;
+  color: #e2dfd2;
+}
+
+/* footer*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  color: #e2dfd2;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.5em;
 }
