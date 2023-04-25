@@ -45,9 +45,9 @@ function nav() {
     activateButtons(contactButton);
     loadContact();
   });
-  nav.appendChild(homeButton);
-  nav.appendChild(menuButton);
-  nav.appendChild(contactButton);
+  navSection.appendChild(homeButton);
+  navSection.appendChild(menuButton);
+  navSection.appendChild(contactButton);
   return navSection;
 }
 
