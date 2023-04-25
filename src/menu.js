@@ -21,18 +21,23 @@ function menuPage() {
   menu.classList.add('menu');
 
   const menuTitle = document.createElement('h2');
+  menuTitle.classList.add('menuTitle');
   menuTitle.textContent = 'Menu';
 
   const soupSalad = document.createElement('h3');
+  soupSalad.classList.add('foodTitle');
   soupSalad.textContent = 'Soup & Salad';
 
   const drinks = document.createElement('h3');
+  drinks.classList.add('foodTitle');
   drinks.textContent = 'Drinks';
 
   const mainCourse = document.createElement('h3');
+  mainCourse.classList.add('foodTitle');
   mainCourse.textContent = 'Main Course';
 
   const dessert = document.createElement('h3');
+  dessert.classList.add('foodTitle');
   dessert.textContent = 'Desserts';
 
   menu.appendChild(menuTitle);
