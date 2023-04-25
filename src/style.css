@@ -10,6 +10,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: #e2dfd2;
+  position: relative;
 }
 /* Header & Nav */
 header {
@@ -106,7 +107,7 @@ div.menu h3 {
 }
 /* Footer*/
 footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
