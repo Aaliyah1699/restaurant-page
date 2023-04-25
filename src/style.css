@@ -115,6 +115,18 @@ div.contact {
   background-color: transparent;
   padding-bottom: 3em;
 }
+div.contact h2 {
+  font-size: 3em;
+  line-height: 2;
+  text-align: center;
+  font-family: 'Tangerine', cursive, fantasy;
+}
+div.contact p {
+  font-size: 1rem;
+  line-height: 2;
+  text-align: center;
+  font-family: 'Castoro Titling', cursive, fantasy;
+}
 /* Footer*/
 footer {
   position: fixed;
