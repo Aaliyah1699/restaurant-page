@@ -121,11 +121,18 @@ div.contact h2 {
   text-align: center;
   font-family: 'Tangerine', cursive, fantasy;
 }
-div.contact p {
+.contactInfo {
   font-size: 1rem;
-  line-height: 2;
+  line-height: 1.5;
   text-align: center;
   font-family: 'Castoro Titling', cursive, fantasy;
+}
+.titleInfo {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Tangerine', cursive, fantasy;
 }
 /* Footer*/
 footer {
