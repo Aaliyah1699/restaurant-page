@@ -68,10 +68,6 @@ function createFooter() {
   footerText.classList.add('footerText');
   footerText.textContent = '© Aaliyah Montgomery';
 
-  const githubLink = document.createElement('a');
-  githubLink.classList.add('githubLink');
-  githubLink.href = 'https://github.com/Aaliyah1699/restaurant-page';
-
   const imageCredit = document.createElement('p');
   imageCredit.classList.add('imageCredit');
   imageCredit.textContent = 'Photo by Rachel Claire';
@@ -83,7 +79,6 @@ function createFooter() {
 
   creditLink.appendChild(imageCredit);
   footer.appendChild(creditLink);
-  githubLink.appendChild(footerText);
   footer.appendChild(footerText);
 
   return footer;
