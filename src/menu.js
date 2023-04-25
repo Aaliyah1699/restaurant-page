@@ -1,6 +1,6 @@
 function menuFood(name, price) {
   const menuFoods = document.createElement('div');
-  menuFood.classList.add('menuFood');
+  menuFoods.classList.add('menuFood');
 
   const foodName = document.createElement('p');
   foodName.classList.add('foodName');
