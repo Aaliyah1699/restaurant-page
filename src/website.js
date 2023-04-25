@@ -5,6 +5,7 @@ import loadContact from './contact';
 function header() {
   const headerSection = document.createElement('header');
   const title = document.createElement('h1');
+  title.classList.add('headerTitle');
   title.textContent = 'Le Véritable';
   headerSection.appendChild(title);
   return headerSection;
@@ -24,6 +25,7 @@ function activateButtons() {
 
 function nav() {
   const navSection = document.createElement('nav');
+  navSection.classList.add('navSection');
   const homeButton = document.createElement('button');
   homeButton.classList.add('nav-button');
   homeButton.textContent = 'Home';
@@ -63,12 +65,15 @@ function createFooter() {
   footer.classList.add('footer');
 
   const footerText = document.createElement('p');
+  footerText.classList.add('footerText');
   footerText.textContent = 'Aaliyah Montgomery';
 
   const imageCredit = document.createElement('p');
+  imageCredit.classList.add('imageCredit');
   imageCredit.textContent = 'Photo by Rachel Claire';
 
   const creditLink = document.createElement('a');
+  creditLink.classList.add('creditLink');
   creditLink.href =
     'https://www.pexels.com/photo/row-of-stools-next-to-long-table-covered-with-tablecloth-in-dark-hall-4577179/';
 
