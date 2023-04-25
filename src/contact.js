@@ -15,7 +15,7 @@ function contactPage() {
 
   const contactInfo = document.createElement('p');
   contactInfo.classList.add('titleInfo');
-  contactInfo.textContent = 'Call to make reservations';
+  contactInfo.textContent = 'Call or email to make reservations';
 
   const contactNumber = document.createElement('p');
   contactNumber.classList.add('contactInfo');
