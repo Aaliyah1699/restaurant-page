@@ -26,3 +26,12 @@ footer {
   font-size: 1em;
   padding: 0.5em;
 }
+a.creditLink {
+  color: #e2dfd2;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+a.creditLink:hover {
+  color: #e2dfd2;
+  text-decoration: underline;
+}
