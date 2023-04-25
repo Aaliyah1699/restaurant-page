@@ -177,6 +177,18 @@ a.creditLink:hover {
   .menuFood {
     flex-direction: column;
   }
+  div.contact {
+    width: 90%;
+  }
+  div.contact h2 {
+    font-size: 2em;
+  }
+  .contactInfo {
+    font-size: 0.8rem;
+  }
+  .titleInfo {
+    font-size: 1.5em;
+  }
   .foodName {
     flex-basis: 100%;
   }
