@@ -14,8 +14,8 @@ function activateButtons() {
   const buttons = document.querySelectorAll('.nav-button');
   buttons.forEach((button) => {
     button.addEventListener('click', () => {
-      buttons.forEach((button) => {
-        button.classList.remove('active');
+      buttons.forEach((buttonS) => {
+        buttonS.classList.remove('active');
       });
       button.classList.add('active');
     });
