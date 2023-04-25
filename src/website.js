@@ -66,7 +66,7 @@ function createFooter() {
 
   const footerText = document.createElement('p');
   footerText.classList.add('footerText');
-  footerText.textContent = 'Aaliyah Montgomery';
+  footerText.textContent = '© Aaliyah Montgomery';
 
   const githubLink = document.createElement('a');
   githubLink.classList.add('githubLink');
@@ -81,9 +81,9 @@ function createFooter() {
   creditLink.href =
     'https://www.pexels.com/photo/row-of-stools-next-to-long-table-covered-with-tablecloth-in-dark-hall-4577179/';
 
-  githubLink.appendChild(footerText);
   creditLink.appendChild(imageCredit);
   footer.appendChild(creditLink);
+  githubLink.appendChild(footerText);
   footer.appendChild(footerText);
 
   return footer;
