@@ -50,7 +50,25 @@ nav {
 .nav-button:hover {
   text-decoration: underline;
 }
+
 /* Home */
+div.home {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5em;
+  padding: 1em;
+  background-color: transparent;
+}
+div.home h2 {
+  font-size: 2.5em;
+  line-height: 2;
+  font-family: 'Tangerine', cursive, fantasy;
+}
+div.home p {
+  font-size: 1rem;
+  line-height: 2;
+  font-family: 'Castoro Titling', cursive, fantasy;
+}
 /* Footer*/
 footer {
   position: fixed;
