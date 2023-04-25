@@ -167,9 +167,6 @@ function menuPage() {
 
   menu.appendChild(menuTitle);
   menu.appendChild(soupSalad);
-  menu.appendChild(dessert);
-  menu.appendChild(drinks);
-  menu.appendChild(mainCourse);
   menu.appendChild(menuFood('Velouté de Homard (Lobster Bisque)', '$28'));
   menu.appendChild(
     menuFood(
@@ -177,12 +174,14 @@ function menuPage() {
       '$22'
     )
   );
+  menu.appendChild(drinks);
   menu.appendChild(
     menuFood('Le Cocktail de la Maison (The House Cocktail)', '$30')
   );
   menu.appendChild(
     menuFood('Château Margaux 2015 (Red Wine) ', '$200 per bottle')
   );
+  menu.appendChild(mainCourse);
   menu.appendChild(
     menuFood(
       'Filet de Boeuf (Beef Tenderloin) with Truffle Mashed Potatoes and Seasonal Vegetables',
@@ -195,6 +194,7 @@ function menuPage() {
       '$75'
     )
   );
+  menu.appendChild(dessert);
   menu.appendChild(
     menuFood('Tarte au Citron (Lemon Tart) with Raspberry Sorbet', '$28')
   );
