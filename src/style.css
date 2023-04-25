@@ -68,14 +68,36 @@ div.home p {
   line-height: 2;
   font-family: 'Castoro Titling', cursive, fantasy;
 }
+/* Menu */
+div.menu {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 1em;
+  background-color: transparent;
+}
+div.menu h2 {
+  font-size: 2.5em;
+  line-height: 1.5;
+  font-family: 'Tangerine', cursive, fantasy;
+}
+div.menu p {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-family: 'Castoro Titling', cursive, fantasy;
+}
+div.menu h3 {
+  font-size: 1.7em;
+  line-height: 1.2;
+  font-family: 'Tangerine', cursive, fantasy;
+}
 /* Footer*/
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #000000;
-  opacity: 0.4;
+  background-color: transparent;
   color: #e2dfd2;
   text-align: center;
   font-size: 1em;
@@ -89,4 +111,31 @@ a.creditLink {
 a.creditLink:hover {
   color: #e2dfd2;
   text-decoration: underline;
+}
+/* Media Queries */
+@media only screen and (max-width: 768px) and (min-width: 401px) {
+  header {
+    font-size: 2em;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .nav-button {
+    flex: none;
+    width: 100%;
+    margin: 0 0.5em;
+    font-size: 1.2em;
+  }
+  div.home {
+    width: 90%;
+  }
+  div.home h2 {
+    font-size: 2em;
+  }
+  div.home p {
+    font-size: 0.8rem;
+  }
+  footer {
+    font-size: 0.8em;
+  }
 }
