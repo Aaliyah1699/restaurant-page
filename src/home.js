@@ -1,5 +1,6 @@
 function homeText(text) {
   const homeInfo = document.createElement('p');
+  homeInfo.classList.add('homeInfo');
   homeInfo.textContent = text;
   return homeInfo;
 }
@@ -9,6 +10,7 @@ function homePage() {
   home.classList.add('home');
 
   const homeTitle = document.createElement('h2');
+  homeTitle.classList.add('homeTitle');
   homeTitle.textContent = 'Welcome to Le Véritable,';
 
   home.appendChild(homeTitle);
@@ -22,9 +24,8 @@ function homePage() {
 }
 
 function loadHome() {
-    const main = document.getElementById('main');
-    main.textContent = '';
-    main.appendChild(homePage());
-
+  const main = document.getElementById('main');
+  main.textContent = '';
+  main.appendChild(homePage());
 }
 export default loadHome;
