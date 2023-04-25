@@ -301,6 +301,10 @@ function createFooter() {
   footerText.classList.add('footerText');
   footerText.textContent = 'Aaliyah Montgomery';
 
+  const githubLink = document.createElement('a');
+  githubLink.classList.add('githubLink');
+  githubLink.href = 'https://github.com/Aaliyah1699/restaurant-page';
+
   const imageCredit = document.createElement('p');
   imageCredit.classList.add('imageCredit');
   imageCredit.textContent = 'Photo by Rachel Claire';
@@ -310,6 +314,7 @@ function createFooter() {
   creditLink.href =
     'https://www.pexels.com/photo/row-of-stools-next-to-long-table-covered-with-tablecloth-in-dark-hall-4577179/';
 
+  githubLink.appendChild(footerText);
   creditLink.appendChild(imageCredit);
   footer.appendChild(creditLink);
   footer.appendChild(footerText);
