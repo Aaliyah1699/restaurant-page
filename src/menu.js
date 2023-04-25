@@ -2,38 +2,16 @@ function menuFood(name, price) {
   const menuFoods = document.createElement('div');
   menuFood.classList.add('menuFood');
 
-  const saladItem = document.createElement('p');
-  saladItem.textContent = `${name} ${price}`;
+  const foodName = document.createElement('p');
+  foodName.classList.add('foodName');
+  foodName.textContent = name;
 
-  const soupItem = document.createElement('p');
-  soupItem.textContent = `${name} ${price}`;
+  const foodPrice = document.createElement('p');
+  foodPrice.classList.add('foodPrice');
+  foodPrice.textContent = price;
 
-  const drinkItem1 = document.createElement('p');
-  drinkItem1.textContent = `${name} ${price}`;
-
-  const drinkItem2 = document.createElement('p');
-  drinkItem2.textContent = `${name} ${price}`;
-
-  const mainCourseItem1 = document.createElement('p');
-  mainCourseItem1.textContent = `${name} ${price}`;
-
-  const mainCourseItem2 = document.createElement('p');
-  mainCourseItem2.textContent = `${name} ${price}`;
-
-  const dessertItem1 = document.createElement('p');
-  dessertItem1.textContent = `${name} ${price}`;
-
-  const dessertItem2 = document.createElement('p');
-  dessertItem2.textContent = `${name} ${price}`;
-
-  menuFoods.appendChild(saladItem);
-  menuFoods.appendChild(soupItem);
-  menuFoods.appendChild(drinkItem1);
-  menuFoods.appendChild(drinkItem2);
-  menuFoods.appendChild(mainCourseItem1);
-  menuFoods.appendChild(mainCourseItem2);
-  menuFoods.appendChild(dessertItem1);
-  menuFoods.appendChild(dessertItem2);
+  menuFoods.appendChild(foodName);
+  menuFoods.appendChild(foodPrice);
 
   return menuFoods;
 }
