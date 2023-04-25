@@ -72,24 +72,38 @@ div.home p {
 div.menu {
   width: 70%;
   margin: 0 auto;
-  margin-top: 2em;
+  margin-top: 1em;
   padding: 1em;
   background-color: transparent;
 }
 div.menu h2 {
-  font-size: 2.5em;
-  line-height: 1.5;
+  font-size: 3em;
+  line-height: 1.2;
+  text-align: center;
   font-family: 'Tangerine', cursive, fantasy;
 }
 div.menu p {
   font-size: 1rem;
-  line-height: 1.2;
+  font-weight: bold;
+  line-height: 1.1;
   font-family: 'Castoro Titling', cursive, fantasy;
 }
 div.menu h3 {
-  font-size: 1.7em;
-  line-height: 1.2;
+  font-size: 2em;
+  line-height: 1.1;
   font-family: 'Tangerine', cursive, fantasy;
+}
+.menuFood {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+.foodName {
+  flex-grow: 1;
 }
 /* Footer*/
 footer {
