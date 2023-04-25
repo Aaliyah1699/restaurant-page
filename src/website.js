@@ -54,7 +54,7 @@ function nav() {
 function createMain() {
   const main = document.createElement('div');
   main.classList.add('main');
-  main.setAttribute('id', 'main-content');
+  main.setAttribute('id', 'main');
   return main;
 }
 
