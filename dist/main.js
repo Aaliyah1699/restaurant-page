@@ -28,7 +28,7 @@ function contactPage() {
   contactTitle.textContent = 'Contact Us';
 
   const contactInfo = document.createElement('p');
-  contactInfo.classList.add('contactInfo');
+  contactInfo.classList.add('titleInfo');
   contactInfo.textContent = 'Call to make reservations';
 
   const contactNumber = document.createElement('p');
@@ -40,7 +40,7 @@ function contactPage() {
   contactEmail.textContent = 'reservations@leveritable.com';
 
   const contactAbout = document.createElement('p');
-  contactAbout.classList.add('contactInfo');
+  contactAbout.classList.add('titleInfo');
   contactAbout.textContent = 'About Us';
 
   contact.appendChild(contactTitle);
