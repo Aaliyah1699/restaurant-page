@@ -99,3 +99,10 @@ function menuPage() {
 
   return menu;
 }
+
+function loadMenu() {
+  const main = document.getElementById('main');
+  main.textContent = '';
+  main.appendChild(menuPage());
+}
+export default loadMenu;
